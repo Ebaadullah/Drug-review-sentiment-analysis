@@ -1,5 +1,4 @@
 
-![Alt Text](drug.jpg)
 <p align="center">
   <img src="drug.jpg" alt="App Screenshot" width="600"/>
 </p>
