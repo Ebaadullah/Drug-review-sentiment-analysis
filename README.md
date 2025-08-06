@@ -1,5 +1,8 @@
 
 ![Alt Text](drug.jpg)
+<p align="center">
+  <img src="drug.jpg" alt="App Screenshot" width="600"/>
+</p>
 
 # Drug-review-sentiment-analysis
 This project analyzes patient drug reviews to classify their sentiment as Positive or Negative using a fine-tuned DistilBERT model from Hugging Face. Built with Streamlit for an interactive and user-friendly web interface.
