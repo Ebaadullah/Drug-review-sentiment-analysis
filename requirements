@@ -1,5 +1,0 @@
-streamlit
-transformers==4.53.2
-torch
-pandas
-scikit-learn
