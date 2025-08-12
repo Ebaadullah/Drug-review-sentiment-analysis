@@ -1,3 +1,6 @@
+import subprocess, sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
 import streamlit as st
 from transformers import pipeline, DistilBertTokenizer, DistilBertForSequenceClassification
 
@@ -31,3 +34,4 @@ if st.button("Analyze Sentiment"):
             st.error(f"Sentiment: **{label}** \n\nConfidence: `{score:.2f}%`")
     else:
         st.warning("Please enter a review to analyze.")
+
